@@ -1,9 +1,0 @@
-version: 1
-type: web
-
-build:
-  framework: dockerfile
-
-run:
-  command: php -S 0.0.0.0:3000 api.php
-  port: 3000
